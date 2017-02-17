@@ -1,0 +1,28 @@
+/* Test 1 */
+{
+  "actor" :
+  {
+    "_id":2
+  },
+  "film" :
+  {
+    "adult": false,
+    "character": "Himself",
+    "original_title": "Hearts of Darkness: A Filmmaker's Apocalypse",
+    "poster_path": "/pfDFjs04gb0PGP4qTDm07q370mW.jpg",
+    "title": "Test absolu",
+    "id" : 1234
+  }
+}
+
+/* Test 2 */
+{
+  "actor" :
+  {
+    "_id":123,
+    "name" : "Flo"
+  }
+}
+
+
+/* Test 3 */

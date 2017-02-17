@@ -1,0 +1,35 @@
+<feedback>
+  <demande>
+    <idDemande>1282702075</idDemande>
+    <errors>
+      <error>Veuillez indiquer l&apos;id d&apos;un film existant</error>
+      <error>Veuillez indiquer une date postérieure au jour en cours</error>
+      <error>La copie 1 du film 123 n&apos;existe pas</error>
+    </errors>
+  </demande>
+  <demande>
+    <idDemande>-822745109</idDemande>
+    <errors>
+      <error>Veuillez indiquer l&apos;id d&apos;un film existant</error>
+      <error>Veuillez indiquer une date postérieure au jour en cours</error>
+      <error>La copie 1 du film 123 n&apos;existe pas</error>
+    </errors>
+  </demande>
+  <demande>
+    <idDemande>-612853510</idDemande>
+    <errors>
+      <error>Veuillez indiquer l&apos;id d&apos;un film existant</error>
+      <error>Veuillez indiquer une date postérieure au jour en cours</error>
+      <error>La copie 2 du film 123 n&apos;existe pas</error>
+    </errors>
+  </demande>
+  <demande>
+    <idDemande>-311550334</idDemande>
+    <errors>
+      <error>Veuillez indiquer l&apos;id d&apos;un film existant</error>
+      <error>Veuillez indiquer une date postérieure au jour en cours</error>
+      <error>La copie 4 du film 123 n&apos;existe pas</error>
+      <error>Le numéro de salle 6 n&apos;exsite pas</error>
+    </errors>
+  </demande>
+</feedback>

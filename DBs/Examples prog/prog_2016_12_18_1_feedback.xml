@@ -1,0 +1,62 @@
+<feedback>
+  <demande>
+    <idDemande>1282762075</idDemande>
+    <errors>
+      <error>Cette demande a déjà été ajoutée à la BD</error>
+    </errors>
+  </demande>
+  <demande>
+    <idDemande>-822745309</idDemande>
+    <errors>
+      <error>Cette demande a déjà été ajoutée à la BD</error>
+    </errors>
+  </demande>
+  <demande>
+    <idDemande>-612253510</idDemande>
+    <errors>
+      <error>Cette demande a déjà été ajoutée à la BD</error>
+    </errors>
+  </demande>
+  <demande>
+    <idDemande>-311150334</idDemande>
+    <errors>
+      <error>Cette demande a déjà été ajoutée à la BD</error>
+    </errors>
+  </demande>
+  <demande>
+    <idDemande>-23423434</idDemande>
+    <errors>
+      <error>Cette demande a déjà été ajoutée à la BD</error>
+    </errors>
+  </demande>
+  <demande>
+    <idDemande>-3112340334</idDemande>
+    <errors>
+      <error>Cette demande a déjà été ajoutée à la BD</error>
+    </errors>
+  </demande>
+  <demande>
+    <idDemande>-3111565434</idDemande>
+    <errors>
+      <error>Cette demande a déjà été ajoutée à la BD</error>
+    </errors>
+  </demande>
+  <demande>
+    <idDemande>-3110334</idDemande>
+    <errors>
+      <error>La salle est indisponible pour l&apos;heure demandée</error>
+    </errors>
+  </demande>
+  <demande>
+    <idDemande>-31150334</idDemande>
+    <errors>
+      <error>Cette demande a déjà été ajoutée à la BD</error>
+    </errors>
+  </demande>
+  <demande>
+    <idDemande>-3111250334</idDemande>
+    <errors>
+      <error>La diffusion du film précède l&apos;heure d&apos;ouverture du cinéma</error>
+    </errors>
+  </demande>
+</feedback>

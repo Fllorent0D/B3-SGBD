@@ -1,0 +1,28 @@
+<feedback>
+  <demande>
+    <idDemande>1282702075</idDemande>
+    <errors>
+      <error>Cette demande a déjà été ajoutée à la BD</error>
+    </errors>
+  </demande>
+  <demande>
+    <idDemande>-822745109</idDemande>
+    <errors>
+      <error>Veuillez indiquer l&apos;id d&apos;un film existant</error>
+    </errors>
+  </demande>
+  <demande>
+    <idDemande>-612853510</idDemande>
+    <errors>
+      <error>Veuillez indiquer l&apos;id d&apos;un film existant</error>
+      <error>Le numéro de salle 5 n&apos;exsite pas</error>
+    </errors>
+  </demande>
+  <demande>
+    <idDemande>-311550334</idDemande>
+    <errors>
+      <error>Veuillez indiquer l&apos;id d&apos;un film existant</error>
+      <error>Le numéro de salle 6 n&apos;exsite pas</error>
+    </errors>
+  </demande>
+</feedback>

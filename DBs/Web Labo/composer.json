@@ -1,0 +1,31 @@
+{
+    "name": "swith/framework",
+    "description": "Swith MVC est un framework PHP fait maison et en cours de developpement.",
+    "license": "MIT",
+    "homepage": "http://mvc.swith.fr",
+    "authors": [
+        {
+            "name": "SwithFr",
+            "email": "contact@swith.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "App\\" : "App",
+            "Core\\" : "Core"
+        }
+    },
+    "require": {
+        "php": "~5.6.0",
+        "josegonzalez/dotenv": "0.6.0",
+        "swith/error": "dev-master",
+        "swith/form": "dev-master",
+        "mongodb/mongodb": "dev-master",
+        "nesbot/carbon": "^1.21"
+    },
+    "scripts": {
+      "post-create-project-cmd": [
+        "chmod +x Swith"
+      ]
+    }
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns:xdb="http://xmlns.oracle.com/xdb"
+		xdb:storeVarrayAsTable="true"
+		version="1.0">
+
+	<xs:element name="salle" type="salleType" xdb:defaultTable="SALLES"/>
+
+	<xs:complexType name="salleType" xdb:SQLType="SALLE_TYPE">
+		<xs:sequence>
+
+            <xs:element name="numSalle" 
+                        type="xs:integer" 
+                        xdb:SQLName="NUM_SALLE" 
+                        xdb:SQLType="NUMBER"/>
+
+            <xs:element name="capacity" 
+                        type="xs:integer" 
+                        xdb:SQLName="CAPACITY" 
+                        xdb:SQLType="NUMBER"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
+
+
+<!--
+DECLARE
+  idSalle INTEGER;
+  salle XMLType;
+BEGIN
+  SELECT sequence_salle.NEXTVAL INTO idSalle FROM DUAL;
+
+  SELECT XMLElement("salle", 
+      XMLForest(
+        idSalle AS "idSalle",
+        '4' AS "numSalle",
+        '150' AS "capacity"
+      )
+    ) INTO salle
+  FROM dual;
+  
+  INSERT INTO salles VALUES salle;
+END;
+
+-->

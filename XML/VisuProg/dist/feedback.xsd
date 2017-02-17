@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns:xdb="http://xmlns.oracle.com/xdb"
+		xdb:storeVarrayAsTable="true"
+		version="1.0">
+
+	<xs:element name="feedback" type="feedbackType" xdb:defaultTable="FEEDBACKS"/>
+
+	<xs:complexType name="feedbackType" xdb:SQLType="FEEDBACK_TYPE">
+		<xs:sequence>	
+			<xs:element name="demande" type="demandeType" xdb:SQLName="DEMANDE" xdb:SQLCollType="DEMANDES_VRY"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="demandeType" xdb:SQLType="DEMANDE_TYPE">
+		<xs:sequence>
+			<xs:element name="idDemande" type="xs:integer" xdb:SQLName="ID_DEMANDE" xdb:SQLType="NUMBER"/>
+			<xs:element name="errors" type="errorsType" xdb:SQLName="ERRORS" xdb:SQLCollType="ERRORS_VRY"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="errorType" xdb:SQLType="ERROR_TYPE">
+		<xs:sequence>
+			<xs:element name="error" type="xs:string" xdb:SQLName="ERROR" xdb:SQLType="VARCHAR2"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
+
+<!--<feedback>
+	<demande>
+		<idDemande>1</idDemande>
+		<errors>
+			<error>Veuillez indiquer l'id d'un film</error>
+			<error>Veuillez indiquer une heure</error>
+		</errors>
+	</demande>
+</feedback>-->

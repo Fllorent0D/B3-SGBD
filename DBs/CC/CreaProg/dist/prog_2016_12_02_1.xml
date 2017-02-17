@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<programmation>
+	<demande idDemande="1008614853">
+		<idMovie>97500</idMovie>
+		<numCopy>3</numCopy>
+		<debut>2016-12-01</debut>
+		<fin>2016-12-25</fin>
+		<salle>4</salle>
+		<heure>14:50:00</heure>
+	</demande>
+	<demande idDemande="-2022023936">
+		<idMovie>321519</idMovie>
+		<numCopy>1</numCopy>
+		<debut>2016-12-01</debut>
+		<fin>2016-12-25</fin>
+		<salle>4</salle>
+		<heure>17:00:00</heure>
+	</demande>
+	<demande idDemande="-411555696">
+		<idMovie>120936</idMovie>
+		<numCopy>1</numCopy>
+		<debut>2016-12-01</debut>
+		<fin>2016-12-25</fin>
+		<salle>1</salle>
+		<heure>16:20:00</heure>
+	</demande>
+	<demande idDemande="-1953061264">
+		<idMovie>379644</idMovie>
+		<numCopy>1</numCopy>
+		<debut>2016-12-01</debut>
+		<fin>2016-12-25</fin>
+		<salle>3</salle>
+		<heure>10:45:00</heure>
+	</demande>
+	<demande idDemande="-1061964275">
+		<idMovie>283873</idMovie>
+		<numCopy>1</numCopy>
+		<debut>2016-12-01</debut>
+		<fin>2016-12-25</fin>
+		<salle>2</salle>
+		<heure>12:30:00</heure>
+	</demande>
+	<demande idDemande="633682432">
+		<idMovie>20786</idMovie>
+		<numCopy>1</numCopy>
+		<debut>2016-12-01</debut>
+		<fin>2016-12-25</fin>
+		<salle>1</salle>
+		<heure>10:20:00</heure>
+	</demande>
+	<demande idDemande="560382934">
+		<idMovie>343841</idMovie>
+		<numCopy>1</numCopy>
+		<debut>2016-12-01</debut>
+		<fin>2016-12-25</fin>
+		<salle>4</salle>
+		<heure>10:20:00</heure>
+	</demande>
+</programmation>

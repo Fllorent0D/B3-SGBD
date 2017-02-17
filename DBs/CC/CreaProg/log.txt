@@ -1,0 +1,192 @@
+Fichier de log utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/log.txtFichier entrée utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/test1.csvFichier sortie utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/test1.xmlDocument contenant un header : trueInstanciation du parserDebut parsing
+Ligne lue : 13/09/2016;15/09/2016;123;1;4;14:50Champs 1 : 13/09/2016Champs 2 : 15/09/2016Champs 3 : 123Champs 4 : 1Champs 5 : 4Champs 6 : 14:50	Programmation : ID : 1108261216 | Début : 2016-01-13 | Fin : 2016-01-15 | Film : 123 | Copie : 1 | Salle : 4 | Heure 14:50:00.000
+Ligne lue : 13/09/2016;15/09/2016;123;1;4;17:00Champs 1 : 13/09/2016Champs 2 : 15/09/2016Champs 3 : 123Champs 4 : 1Champs 5 : 4Champs 6 : 17:00	Programmation : ID : 39196225 | Début : 2016-01-13 | Fin : 2016-01-15 | Film : 123 | Copie : 1 | Salle : 4 | Heure 17:00:00.000
+Ligne lue : 13/09/2016;15/09/2016;123;2;5;16:30Champs 1 : 13/09/2016Champs 2 : 15/09/2016Champs 3 : 123Champs 4 : 2Champs 5 : 5Champs 6 : 16:30	Programmation : ID : -470759091 | Début : 2016-01-13 | Fin : 2016-01-15 | Film : 123 | Copie : 2 | Salle : 5 | Heure 16:30:00.000
+Ligne lue : 14/09/2016;20/09/2016;123;4;6;10:45Champs 1 : 14/09/2016Champs 2 : 20/09/2016Champs 3 : 123Champs 4 : 4Champs 5 : 6Champs 6 : 10:45	Programmation : ID : 1957417994 | Début : 2016-01-14 | Fin : 2016-01-20 | Film : 123 | Copie : 4 | Salle : 6 | Heure 10:45:00.000Parsing terminé sans erreurDocument généré en mémoireXSD utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/programmation.xsdDocument mémoire validé avec le XSDDocument mémoire transformé en XMLFichier de log utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/log.txt
+Fichier entrée utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/test1.csv
+Fichier sortie utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/test1.xml
+Document contenant un header : true
+Instanciation du parser
+Debut parsing
+
+Ligne lue : 13/09/2016;15/09/2016;123;1;4;14:50
+Champs 1 : 13/09/2016
+Champs 2 : 15/09/2016
+Champs 3 : 123
+Champs 4 : 1
+Champs 5 : 4
+Champs 6 : 14:50
+	Programmation : ID : -588813653 | Début : 2016-01-13 | Fin : 2016-01-15 | Film : 123 | Copie : 1 | Salle : 4 | Heure 14:50:00.000
+
+Ligne lue : 13/09/2016;15/09/2016;123;1;4;17:00
+Champs 1 : 13/09/2016
+Champs 2 : 15/09/2016
+Champs 3 : 123
+Champs 4 : 1
+Champs 5 : 4
+Champs 6 : 17:00
+	Programmation : ID : 1465510627 | Début : 2016-01-13 | Fin : 2016-01-15 | Film : 123 | Copie : 1 | Salle : 4 | Heure 17:00:00.000
+
+Ligne lue : 13/09/2016;15/09/2016;123;2;5;16:30
+Champs 1 : 13/09/2016
+Champs 2 : 15/09/2016
+Champs 3 : 123
+Champs 4 : 2
+Champs 5 : 5
+Champs 6 : 16:30
+	Programmation : ID : -580019135 | Début : 2016-01-13 | Fin : 2016-01-15 | Film : 123 | Copie : 2 | Salle : 5 | Heure 16:30:00.000
+
+Ligne lue : 14/09/2016;20/09/2016;123;4;6;10:45
+Champs 1 : 14/09/2016
+Champs 2 : 20/09/2016
+Champs 3 : 123
+Champs 4 : 4
+Champs 5 : 6
+Champs 6 : 10:45
+	Programmation : ID : -1771506469 | Début : 2016-01-14 | Fin : 2016-01-20 | Film : 123 | Copie : 4 | Salle : 6 | Heure 10:45:00.000
+Parsing terminé sans erreur
+Document généré en mémoire
+XSD utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/programmation.xsd
+Document mémoire validé avec le XSD
+Document mémoire transformé en XML
+[nov./16 17:18:16]Fichier de log utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/log.txt
+[nov./16 17:18:16]Fichier entrée utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/test1.csv
+[nov./16 17:18:16]Fichier sortie utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/test1.xml
+[nov./16 17:18:16]Document contenant un header : true
+[nov./16 17:18:16]Instanciation du parser
+[nov./16 17:18:16]Debut parsing
+[nov./16 17:18:16]
+Ligne lue : 13/09/2016;15/09/2016;123;1;4;14:50
+[nov./16 17:18:16]Champs 1 : 13/09/2016
+[nov./16 17:18:16]Champs 2 : 15/09/2016
+[nov./16 17:18:16]Champs 3 : 123
+[nov./16 17:18:16]Champs 4 : 1
+[nov./16 17:18:16]Champs 5 : 4
+[nov./16 17:18:16]Champs 6 : 14:50
+[nov./16 17:18:17]	Programmation : ID : 1894267377 | Début : 2016-01-13 | Fin : 2016-01-15 | Film : 123 | Copie : 1 | Salle : 4 | Heure 14:50:00.000
+[nov./16 17:18:17]
+Ligne lue : 13/09/2016;15/09/2016;123;1;4;17:00
+[nov./16 17:18:17]Champs 1 : 13/09/2016
+[nov./16 17:18:17]Champs 2 : 15/09/2016
+[nov./16 17:18:17]Champs 3 : 123
+[nov./16 17:18:17]Champs 4 : 1
+[nov./16 17:18:17]Champs 5 : 4
+[nov./16 17:18:17]Champs 6 : 17:00
+[nov./16 17:18:17]	Programmation : ID : 1175632281 | Début : 2016-01-13 | Fin : 2016-01-15 | Film : 123 | Copie : 1 | Salle : 4 | Heure 17:00:00.000
+[nov./16 17:18:17]
+Ligne lue : 13/09/2016;15/09/2016;123;2;5;16:30
+[nov./16 17:18:17]Champs 1 : 13/09/2016
+[nov./16 17:18:17]Champs 2 : 15/09/2016
+[nov./16 17:18:17]Champs 3 : 123
+[nov./16 17:18:17]Champs 4 : 2
+[nov./16 17:18:17]Champs 5 : 5
+[nov./16 17:18:17]Champs 6 : 16:30
+[nov./16 17:18:17]	Programmation : ID : -858367112 | Début : 2016-01-13 | Fin : 2016-01-15 | Film : 123 | Copie : 2 | Salle : 5 | Heure 16:30:00.000
+[nov./16 17:18:17]
+Ligne lue : 14/09/2016;20/09/2016;123;4;6;10:45
+[nov./16 17:18:17]Champs 1 : 14/09/2016
+[nov./16 17:18:17]Champs 2 : 20/09/2016
+[nov./16 17:18:17]Champs 3 : 123
+[nov./16 17:18:17]Champs 4 : 4
+[nov./16 17:18:17]Champs 5 : 6
+[nov./16 17:18:17]Champs 6 : 10:45
+[nov./16 17:18:17]	Programmation : ID : -142106651 | Début : 2016-01-14 | Fin : 2016-01-20 | Film : 123 | Copie : 4 | Salle : 6 | Heure 10:45:00.000
+[nov./16 17:18:17]Parsing terminé sans erreur
+[nov./16 17:18:17]Document généré en mémoire
+[nov./16 17:18:17]XSD utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/programmation.xsd
+[nov./16 17:18:17]Document mémoire validé avec le XSD
+[nov./16 17:18:17]Document mémoire transformé en XML
+[2016/11/16 17:18:49]Fichier de log utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/log.txt
+[2016/11/16 17:18:49]Fichier entrée utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/test1.csv
+[2016/11/16 17:18:49]Fichier sortie utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/test1.xml
+[2016/11/16 17:18:49]Document contenant un header : true
+[2016/11/16 17:18:49]Instanciation du parser
+[2016/11/16 17:18:49]Debut parsing
+[2016/11/16 17:18:49]
+Ligne lue : 13/09/2016;15/09/2016;123;1;4;14:50
+[2016/11/16 17:18:49]Champs 1 : 13/09/2016
+[2016/11/16 17:18:49]Champs 2 : 15/09/2016
+[2016/11/16 17:18:49]Champs 3 : 123
+[2016/11/16 17:18:49]Champs 4 : 1
+[2016/11/16 17:18:49]Champs 5 : 4
+[2016/11/16 17:18:49]Champs 6 : 14:50
+[2016/11/16 17:18:50]	Programmation : ID : -816554784 | Début : 2016-01-13 | Fin : 2016-01-15 | Film : 123 | Copie : 1 | Salle : 4 | Heure 14:50:00.000
+[2016/11/16 17:18:50]
+Ligne lue : 13/09/2016;15/09/2016;123;1;4;17:00
+[2016/11/16 17:18:50]Champs 1 : 13/09/2016
+[2016/11/16 17:18:50]Champs 2 : 15/09/2016
+[2016/11/16 17:18:50]Champs 3 : 123
+[2016/11/16 17:18:50]Champs 4 : 1
+[2016/11/16 17:18:50]Champs 5 : 4
+[2016/11/16 17:18:50]Champs 6 : 17:00
+[2016/11/16 17:18:50]	Programmation : ID : 1077489461 | Début : 2016-01-13 | Fin : 2016-01-15 | Film : 123 | Copie : 1 | Salle : 4 | Heure 17:00:00.000
+[2016/11/16 17:18:50]
+Ligne lue : 13/09/2016;15/09/2016;123;2;5;16:30
+[2016/11/16 17:18:50]Champs 1 : 13/09/2016
+[2016/11/16 17:18:50]Champs 2 : 15/09/2016
+[2016/11/16 17:18:50]Champs 3 : 123
+[2016/11/16 17:18:50]Champs 4 : 2
+[2016/11/16 17:18:50]Champs 5 : 5
+[2016/11/16 17:18:50]Champs 6 : 16:30
+[2016/11/16 17:18:50]	Programmation : ID : 942524094 | Début : 2016-01-13 | Fin : 2016-01-15 | Film : 123 | Copie : 2 | Salle : 5 | Heure 16:30:00.000
+[2016/11/16 17:18:50]
+Ligne lue : 14/09/2016;20/09/2016;123;4;6;10:45
+[2016/11/16 17:18:50]Champs 1 : 14/09/2016
+[2016/11/16 17:18:50]Champs 2 : 20/09/2016
+[2016/11/16 17:18:50]Champs 3 : 123
+[2016/11/16 17:18:50]Champs 4 : 4
+[2016/11/16 17:18:50]Champs 5 : 6
+[2016/11/16 17:18:50]Champs 6 : 10:45
+[2016/11/16 17:18:50]	Programmation : ID : -275241351 | Début : 2016-01-14 | Fin : 2016-01-20 | Film : 123 | Copie : 4 | Salle : 6 | Heure 10:45:00.000
+[2016/11/16 17:18:50]Parsing terminé sans erreur
+[2016/11/16 17:18:50]Document généré en mémoire
+[2016/11/16 17:18:50]XSD utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/programmation.xsd
+[2016/11/16 17:18:50]Document mémoire validé avec le XSD
+[2016/11/16 17:18:50]Document mémoire transformé en XML
+[2016/11/16 17:19:05]Fichier de log utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/log.txt
+[2016/11/16 17:19:05]Fichier entrée utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/test1.csv
+[2016/11/16 17:19:05]Fichier sortie utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/test1.xml
+[2016/11/16 17:19:05]Document contenant un header : true
+[2016/11/16 17:19:05]Instanciation du parser
+[2016/11/16 17:19:05]Debut parsing
+[2016/11/16 17:19:05]
+Ligne lue : 13/09/2016;15/09/2016;123;1;4;14:50
+[2016/11/16 17:19:05]Champs 1 : 13/09/2016
+[2016/11/16 17:19:05]Champs 2 : 15/09/2016
+[2016/11/16 17:19:05]Champs 3 : 123
+[2016/11/16 17:19:05]Champs 4 : 1
+[2016/11/16 17:19:05]Champs 5 : 4
+[2016/11/16 17:19:05]Champs 6 : 14:50
+[2016/11/16 17:19:06]	Programmation : ID : 23716875 | Début : 2016-01-13 | Fin : 2016-01-15 | Film : 123 | Copie : 1 | Salle : 4 | Heure 14:50:00.000
+[2016/11/16 17:19:06]
+Ligne lue : 13/09/2016;15/09/2016;123;1;4;17:00
+[2016/11/16 17:19:06]Champs 1 : 13/09/2016
+[2016/11/16 17:19:06]Champs 2 : 15/09/2016
+[2016/11/16 17:19:06]Champs 3 : 123
+[2016/11/16 17:19:06]Champs 4 : 1
+[2016/11/16 17:19:06]Champs 5 : 4
+[2016/11/16 17:19:06]Champs 6 : 17:00
+[2016/11/16 17:19:06]	Programmation : ID : -743557384 | Début : 2016-01-13 | Fin : 2016-01-15 | Film : 123 | Copie : 1 | Salle : 4 | Heure 17:00:00.000
+[2016/11/16 17:19:06]
+Ligne lue : 13/09/2016;15/09/2016;123;2;5;16:30
+[2016/11/16 17:19:06]Champs 1 : 13/09/2016
+[2016/11/16 17:19:06]Champs 2 : 15/09/2016
+[2016/11/16 17:19:06]Champs 3 : 123
+[2016/11/16 17:19:06]Champs 4 : 2
+[2016/11/16 17:19:06]Champs 5 : 5
+[2016/11/16 17:19:06]Champs 6 : 16:30
+[2016/11/16 17:19:06]	Programmation : ID : -1647715615 | Début : 2016-01-13 | Fin : 2016-01-15 | Film : 123 | Copie : 2 | Salle : 5 | Heure 16:30:00.000
+[2016/11/16 17:19:06]
+Ligne lue : 14/09/2016;20/09/2016;123;4;6;10:45
+[2016/11/16 17:19:06]Champs 1 : 14/09/2016
+[2016/11/16 17:19:06]Champs 2 : 20/09/2016
+[2016/11/16 17:19:06]Champs 3 : 123
+[2016/11/16 17:19:06]Champs 4 : 4
+[2016/11/16 17:19:06]Champs 5 : 6
+[2016/11/16 17:19:06]Champs 6 : 10:45
+[2016/11/16 17:19:06]	Programmation : ID : -2073640275 | Début : 2016-01-14 | Fin : 2016-01-20 | Film : 123 | Copie : 4 | Salle : 6 | Heure 10:45:00.000
+[2016/11/16 17:19:06]Parsing terminé sans erreur
+[2016/11/16 17:19:06]Document généré en mémoire
+[2016/11/16 17:19:06]XSD utilisé : /Users/florentcardoen/Dropbox/HEPL/Troisième/SGBD/CC/CreaProg/programmation.xsd
+[2016/11/16 17:19:06]Document mémoire validé avec le XSD
+[2016/11/16 17:19:06]Document mémoire transformé en XML

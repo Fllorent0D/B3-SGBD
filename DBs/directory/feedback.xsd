@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns:xdb="http://xmlns.oracle.com/xd"
+		xdb:storeVarrayAsTable="true"
+		version="1.0">
+
+	<xs:element name="feedback" type="feedbackType" xdb:defaultTable="FEEDBACKS"/>
+
+	<xs:complexType name="feedbackType" xdb:SQLType="FEEDBACK_TYPE">
+		<xs:sequence>	
+			<xs:element name="error" type="errorType" xdb:SQLName="ERROR" xdb:SQLCollType="ERRORS_VRY"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="errorType" xdb:SQLType="ERROR_TYPE">
+		<xs:sequence>
+			<xs:element name="idDemande" type="xs:integer" xdb:SQLName="ID_DEMANDE" xdb:SQLType="INTEGER"/>
+			<xs:element name="message" type="xs:string" xdb:SQLName="ERROR_MESSAGE" xdb:SQLType="VARCHAR2"/>
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>

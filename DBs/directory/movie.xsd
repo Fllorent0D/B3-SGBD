@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+		   xmlns:xdb="http://xmlns.oracle.com/xdb"
+		   xdb:storeVarrayAsTable="true"
+		   version="1.0">
+
+    <xs:element name="movie" type="movie_type" xdb:defaultTable="MOVIE_XSD"/>
+
+    <!-- Movie -->
+    <xs:complexType name="movie_type" xdb:SQLType="MOVIE_TYPE">
+        <xs:sequence> 
+
+            <xs:element name="id" 
+                        type="xs:integer" 
+                        xdb:SQLName="ID_MOVIE" 
+                        xdb:SQLType="NUMBER"/>
+
+            <xs:element name="title" 
+                        type="title_type" 
+                        xdb:SQLName="TITLE" 
+                        xdb:SQLType="VARCHAR2"/>
+
+            <xs:element name="original_title"
+                        type="original_title_type"
+                        xdb:SQLName="ORIGINAL_TITLE"
+                        xdb:SQLType="VARCHAR2"/>
+
+            <xs:element name="release_date"
+                        type="xs:date"
+                        xdb:SQLName="RELEASE_DATE"
+                        xdb:SQLType="DATE"/>
+
+            <xs:element name="status" 
+                        type="status_type" 
+                        xdb:SQLName="STATUS"/>
+
+            <xs:element name="vote_average"
+                        type="xs:decimal"
+                        xdb:SQLName="VOTE_AVERAGE"
+                        xdb:SQLType="NUMBER"/>
+
+            <xs:element name="vote_count"
+                        type="xs:integer"
+                        xdb:SQLName="VOTE_COUNT"
+                        xdb:SQLType="NUMBER"/>
+
+            <xs:element name="certification" 
+                        type="certification_type" 
+                        xdb:SQLName="CERTIFICATION"/>
+
+            <xs:element name="poster"
+                        type="xs:hexBinary"
+                        xdb:SQLName="POSTER"
+                        xdb:SQLType="BLOB"/>
+
+            <xs:element name="runtime"
+                        type="xs:integer"
+                        xdb:SQLName="RUNTIME"
+                        xdb:SQLType="NUMBER"/>
+
+            <xs:element name="budget"
+                        type="xs:integer"
+                        xdb:SQLName="BUDGET"
+                        xdb:SQLType="NUMBER"/>
+
+            <xs:element name="tagline"
+                        type="tagline_type"
+                        xdb:SQLName="TAGLINE"
+                        xdb:SQLType="VARCHAR2"/>
+
+
+            <!-- Declaration des listes -->
+
+            <xs:element name="genres" type="genres_type" xdb:SQLName="GENRES"/>
+            <xs:element name="directors" type="directors_type" xdb:SQLName="DIRECTORS"/>
+            <xs:element name="actors" type="actors_type" xdb:SQLName="ACTORS"/>
+
+        </xs:sequence>  
+    </xs:complexType>
+
+
+    <xs:simpleType name="title_type">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0"/>
+            <xs:maxLength value="113"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="original_title_type">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0"/>
+            <xs:maxLength value="114"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tagline_type">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0"/>
+            <xs:maxLength value="867"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    
+    <!-- Complex type Movie -->
+
+    <xs:complexType name="status_type" xdb:SQLType="STATUS_TYPE">
+        <xs:sequence>
+            <xs:element name="id"
+                        type="xs:integer"
+                        xdb:SQLName="ID_STATUS"
+                        xdb:SQLType="NUMBER"/>
+
+            <xs:element name="name"
+                        type="name_status_type"
+                        xdb:SQLName="NAME_STATUS"
+                        xdb:SQLType="VARCHAR2"/>
+
+            <xs:element name="description"
+                        type="description_status_type"
+                        xdb:SQLName="DESCRIPTION_STATUS"
+                        xdb:SQLType="VARCHAR2"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="name_status_type">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0"/>
+            <xs:maxLength value="15"/>    
+        </xs:restriction>
+    </xs:simpleType>   
+
+    <xs:simpleType name="description_status_type">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0"/>
+            <xs:maxLength value="4000"/>    
+        </xs:restriction>
+    </xs:simpleType>  
+
+
+    <xs:complexType name="certification_type" xdb:SQLType="CERTIFICATION_TYPE">
+        <xs:sequence>
+            <xs:element name="id"
+                        type="xs:integer"
+                        xdb:SQLName="ID_CERTIFICATION"
+                        xdb:SQLType="NUMBER"/>
+
+            <xs:element name="name"
+                        type="name_certification_type"
+                        xdb:SQLName="NAME_CERTIFICATION"
+                        xdb:SQLType="VARCHAR2"/>
+
+            <xs:element name="description"
+                        type="description_certification_type"
+                        xdb:SQLName="DESCRIPTION_CERTIFICATION"
+                        xdb:SQLType="VARCHAR2"/>        
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="name_certification_type">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0"/>
+            <xs:maxLength value="9"/>    
+        </xs:restriction>
+    </xs:simpleType>   
+
+    <xs:simpleType name="description_certification_type">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0"/>
+            <xs:maxLength value="4000"/>    
+        </xs:restriction>
+    </xs:simpleType> 
+
+    <!-- Fin complex type movie -->
+
+    <!-- Directors -->
+    <xs:complexType name="directors_type" xdb:SQLType="DIRECTORS_TYPE">
+        <xs:sequence>
+            <xs:element name="director" maxOccurs="unbounded" type="director_type" xdb:SQLName="DIRECTOR" xdb:SQLCollType="DIRECTORS_VRY"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="director_type" xdb:SQLType="DIRECTOR_TYPE">
+    	<xs:sequence>
+    		<xs:element name="id"
+                        type="xs:integer"
+                        xdb:SQLName="ID_DIRECTOR"
+                        xdb:SQLType="NUMBER"/>
+    	</xs:sequence>
+    </xs:complexType>
+
+    <!-- Fin Directors -->
+
+
+    <!-- Actors -->
+    <xs:complexType name="actors_type" xdb:SQLType="ACTORS_TYPE">
+        <xs:sequence>
+            <xs:element name="actor" maxOccurs="unbounded" type="actor_type" xdb:SQLName="ACTOR" xdb:SQLCollType="ACTORS_VRY"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="actor_type" xdb:SQLType="ACTOR_TYPE">
+    	<xs:sequence>
+    		<xs:element name="id"
+                        type="xs:integer"
+                        xdb:SQLName="ID_ACTOR"
+                        xdb:SQLType="NUMBER"/>
+
+            <xs:element name="name"
+                        type="name_actor_type"
+                        xdb:SQLName="NAME_ACTOR"
+                        xdb:SQLType="VARCHAR2"/>
+
+            <xs:element name="role"
+                        type="role_actor_type"
+                        xdb:SQLName="ROLE_ACTOR"
+                        xdb:SQLType="VARCHAR2"/>
+    	</xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="name_actor_type">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="40"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="role_actor_type">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="114"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Genres -->
+    <xs:complexType name="genres_type" xdb:SQLType="GENRES_TYPE">
+        <xs:sequence>
+            <xs:element name="genre" maxOccurs="unbounded" type="genre_type" xdb:SQLName="GENRE" xdb:SQLCollType="GENRES_VRY"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="genre_type" xdb:SQLType="GENRE_TYPE">
+        <xs:sequence>
+            <xs:element name="id"
+                        type="xs:integer"
+                        xdb:SQLName="ID_GENRE"
+                        xdb:SQLType="NUMBER"/>
+
+            <xs:element name="name"
+                        type="name_genre_type"
+                        xdb:SQLName="NAME_GENRE"
+                        xdb:SQLType="VARCHAR2"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="name_genre_type">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="16"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- Fin Genres -->
+
+</xs:schema>

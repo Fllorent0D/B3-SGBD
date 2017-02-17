@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns:xdb="http://xmlns.oracle.com/xd"
+		xdb:storeVarrayAsTable="true"
+		version="1.0">
+
+	<xs:element name="archivage" type="archivageType" xdb:defaultTable="ARCHIVAGES"/>
+
+	<xs:complexType name="archivageType" xdb:SQLType="ARCHIVAGE_TYPE">
+		<xs:sequence>
+			<xs:element name="idMovie" 
+						type="xs:integer" 
+						xdb:SQLName="ID_MOVIE" 
+						xdb:SQLType="NUMBER"/>
+
+			<xs:element name="perennite" 
+						type="xs:integer" 
+						xdb:SQLName="PERENNITE" 
+						xdb:SQLType="NUMBER"/>
+
+			<xs:element name="placesVendues" 
+						type="xs:integer" 
+						xdb:SQLName="PLACES_VENDUES" 
+						xdb:SQLType="NUMBER"/>
+
+			<xs:element name="nbrCopies" 
+						type="xs:integer" 
+						xdb:SQLName="NBR_COPIES" 
+						xdb:SQLType="NUMBER"/>
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>
+
+
+<!--
+
+DECLARE
+  archivage XMLType;
+BEGIN
+  SELECT XMLElement("archivage", 
+      XMLForest(
+        '68168' AS "idMovie",
+        '25' AS "perennite",
+        '386' AS "placesVendues",
+        '2' AS "nbrCopies"
+      )
+    ) INTO archivage
+  FROM dual;
+  
+  INSERT INTO archivages VALUES archivage;
+END;
+
+-->

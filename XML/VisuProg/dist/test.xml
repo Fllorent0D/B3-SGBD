@@ -1,0 +1,32 @@
+<?xml version = "1.0"?> 
+<?xml-stylesheet type = "text/xsl" href = "test.xsl"?> 
+<feedback>
+	<demande>
+		<idDemande>-307833894</idDemande>
+		<errors>dfs
+			<error>sdfgdfsg indiquer l'id d'un film</error>
+			<error>Proute </error>
+		</errors>
+	</demande>
+	<demande>
+		<idDemande>1076458836</idDemande>
+		<errors>
+			<error>sdjfksjdhfbjksd indiquer l'id d'un film</error>
+			<error>Veuillez indiquer une heure</error>
+		</errors>
+	</demande>
+	<demande>
+		<idDemande>-1425867987</idDemande>
+		<errors>
+			<error>Veuillez Prsdkghksdfjghksdjghklsdjfhn film</error>
+			<error>Veuillez gsdfgdsfg une heure</error>
+		</errors>
+	</demande>
+	<demande>
+		<idDemande>646189909</idDemande>
+		<errors>
+			<error>Veuillez indiquer l'id d'un film</error>
+			<error>Veuillez indiquer une heure</error>
+		</errors>
+	</demande>
+</feedback>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!ELEMENT panier (place*)>
+
+<!ELEMENT place (projection, date, quantite)>
+<!ELEMENT projection (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT quantite (#PCDATA)>

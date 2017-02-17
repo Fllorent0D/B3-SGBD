@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns:xdb="http://xmlns.oracle.com/xdb"
+		xdb:storeVarrayAsTable="true"
+		version="1.0">
+
+		<xs:element name="projection" type="projectionType" xdb:defaultTable="PROJECTIONS"/>
+
+		<xs:complexType name="projectionType" xdb:SQLType="PROJECTION_TYPE">
+			<xs:sequence>
+				<xs:element name="idProjection" 
+							type="xs:integer" 
+							xdb:SQLName="ID_PROJECTION" 
+							xdb:SQLType="NUMBER"/>
+
+				<xs:element name="idMovie" 	
+							type="xs:integer" 
+							xdb:SQLName="ID_MOVIE" 
+							xdb:SQLType="NUMBER"/>
+
+        		<xs:element name="numSalle" 
+        					type="xs:integer" 
+        					xdb:SQLName="NUM_SALLE" 
+        					xdb:SQLType="NUMBER"/>
+
+				<xs:element name="numCopy" 
+							type="xs:integer" 
+							xdb:SQLName="ID_COPY" 
+							xdb:SQLType="NUMBER"/>
+
+				<xs:element name="debut" 
+							type="xs:date" 
+							xdb:SQLName="DEBUT" 
+							xdb:SQLType="DATE"/>
+
+				<xs:element name="fin" 
+							type="xs:date" 
+							xdb:SQLName="FIN" 
+							xdb:SQLType="DATE"/>
+
+				<xs:element name="heure" 
+							type="xs:time" 
+							xdb:SQLName="HEURE" 
+							xdb:SQLType="TIMESTAMP"/>
+
+				<xs:element name="archivee"
+							type="xs:integer"
+							xdb:SQLName="ARCHIVEE"
+							xdb:SQLType="NUMBER"/>
+
+			</xs:sequence>
+		</xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns:xdb="http://xmlns.oracle.com/xd"
+		xdb:storeVarrayAsTable="true"
+		version="1.0">
+
+	<xs:element name="panier" type="panierType" xdb:defaultTable="PANIERS"/>
+
+	<xs:complexType name="panierType" xdb:SQLType="PANIER_TYPE">
+		<xs:sequence>
+			<xs:element name="idPanier" type="xs:integer" xdb:SQLName="ID_PANIER" xdb:SQLType="NUMBER"/>
+			<xs:element name="items" type="itemsType" xdb:SQLName="ITEMS"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="itemsType" xdb:SQLType="ITEMS_TYPE">
+		<xs:sequence>
+			<xs:element name="item" type="itemType" xdb:SQLName="ITEM" xdb:SQLCollType="ITEMS_VRY"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="itemType" xdb:SQLType="ITEM_TYPE">
+		<xs:sequence>
+			<xs:element name="idDemande" type="xs:integer" xdb:SQLName="ID_DEMANDE" xdb:SQLType="NUMBER"/>
+			<xs:element name="quantity" type="xs:integer" xdb:SQLName="QUANTITY" xdb:SQLType="NUMBER"/>
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>

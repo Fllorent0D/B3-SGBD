@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<programmation>
+	<demande idDemande="1282762075">
+		<idMovie>41524</idMovie>
+		<numCopy>2</numCopy>
+		<debut>2016-12-18</debut>
+		<fin>2016-12-30</fin>
+		<salle>1</salle>
+		<heure>14:50:00</heure>
+	</demande>
+	<demande idDemande="-822745309">
+		<idMovie>117630</idMovie>
+		<numCopy>1</numCopy>
+		<debut>2016-12-18</debut>
+		<fin>2016-12-30</fin>
+		<salle>2</salle>
+		<heure>17:00:00</heure>
+	</demande>
+	<demande idDemande="-612253510">
+		<idMovie>337781</idMovie>
+		<numCopy>1</numCopy>
+		<debut>2016-12-18</debut>
+		<fin>2016-12-30</fin>
+		<salle>3</salle>
+		<heure>13:20:00</heure>
+	</demande>
+	<demande idDemande="-311150334">
+		<idMovie>337781</idMovie>
+		<numCopy>1</numCopy>
+		<debut>2016-12-18</debut>
+		<fin>2016-12-30</fin>
+		<salle>4</salle>
+		<heure>10:45:00</heure>
+	</demande>
+	<demande idDemande="-23423434">
+		<idMovie>252983</idMovie>
+		<numCopy>1</numCopy>
+		<debut>2016-12-18</debut>
+		<fin>2016-12-30</fin>
+		<salle>1</salle>
+		<heure>19:00:00</heure>
+	</demande>
+	<demande idDemande="-3112340334">
+		<idMovie>252983</idMovie>
+		<numCopy>2</numCopy>
+		<debut>2016-12-18</debut>
+		<fin>2016-12-30</fin>
+		<salle>2</salle>
+		<heure>16:30:00</heure>
+	</demande>
+	<demande idDemande="-3111565434">
+		<idMovie>334019</idMovie>
+		<numCopy>1</numCopy>
+		<debut>2016-12-18</debut>
+		<fin>2016-12-30</fin>
+		<salle>3</salle>
+		<heure>10:00:00</heure>
+	</demande>
+	<demande idDemande="-3110334">
+		<idMovie>178827</idMovie>
+		<numCopy>3</numCopy>
+		<debut>2016-12-18</debut>
+		<fin>2016-12-30</fin>
+		<salle>4</salle>
+		<heure>12:20:00</heure>
+	</demande>
+	<demande idDemande="-31150334">
+		<idMovie>320394</idMovie>
+		<numCopy>2</numCopy>
+		<debut>2016-12-18</debut>
+		<fin>2016-12-30</fin>
+		<salle>1</salle>
+		<heure>14:45:00</heure>
+	</demande>
+	<demande idDemande="-3111250334">
+		<idMovie>319781</idMovie>
+		<numCopy>2</numCopy>
+		<debut>2016-12-18</debut>
+		<fin>2016-12-30</fin>
+		<salle>2</salle>
+		<heure>09:30:00</heure>
+	</demande>
+</programmation>
